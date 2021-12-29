@@ -1,0 +1,176 @@
+2021-11-27 18:34:26 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-11-27 18:34:26 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-11-27 18:34:30 INFO  Log4jManager:11 - Websitesi Açıldı
+2021-11-27 18:34:54 INFO  Log4jManager:11 - Aranan Ürün Doğrulandı
+2021-11-27 18:35:07 INFO  Log4jManager:11 - Ürün Seçildi
+2021-11-27 18:35:20 INFO  Log4jManager:11 - Sepete Ekle Butonuna Basıldı
+2021-11-27 18:35:37 WARN  Log4jManager:16 - Popup Açılmadı
+2021-11-27 18:35:47 INFO  Log4jManager:11 - Ürünün Silinmediği Görüldü
+2021-11-27 18:35:47 INFO  Log4jManager:11 - checkBasket:PASSED
+2021-11-27 18:35:47 INFO  Log4jManager:11 - ===============Logging ended for checkBasket==================
+2021-11-27 20:41:50 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-11-27 20:41:50 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-11-27 20:48:12 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-11-27 20:48:12 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-11-27 20:49:34 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-11-27 20:49:34 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-11-27 20:51:11 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-11-27 20:51:11 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-11-27 20:51:50 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-11-27 20:51:50 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-12-03 11:39:29 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-12-03 11:39:29 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-12-03 11:39:29 INFO  Log4jManager:11 - checkBasket:FAILED
+2021-12-03 11:39:29 ERROR Log4jManager:14 - Falied error thrown
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at tests.TC01_optiim.checkBasket(TC01_optiim.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-03 11:39:29 INFO  Log4jManager:11 - ===============Logging ended for checkBasket==================
+2021-12-03 11:39:53 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-12-03 11:39:53 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-12-03 11:39:58 INFO  Log4jManager:11 - Websitesi Açıldı
+2021-12-03 11:40:07 INFO  Log4jManager:11 - checkBasket:FAILED
+2021-12-03 11:40:07 ERROR Log4jManager:14 - Falied error thrown
+java.lang.NullPointerException
+	at pages.LoginPage.oneWayLogin(LoginPage.java:44)
+	at tests.TC01_optiim.checkBasket(TC01_optiim.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-03 11:40:07 INFO  Log4jManager:11 - ===============Logging ended for checkBasket==================
+2021-12-03 11:41:18 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-12-03 11:41:18 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-12-03 11:41:23 INFO  Log4jManager:11 - Websitesi Açıldı
+2021-12-03 11:41:31 INFO  Log4jManager:11 - checkBasket:FAILED
+2021-12-03 11:41:31 ERROR Log4jManager:14 - Falied error thrown
+java.lang.NullPointerException
+	at pages.LoginPage.oneWayLogin(LoginPage.java:44)
+	at tests.TC01_optiim.checkBasket(TC01_optiim.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-03 11:41:31 INFO  Log4jManager:11 - ===============Logging ended for checkBasket==================
+2021-12-03 11:44:56 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-12-03 11:44:56 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-12-03 11:45:00 INFO  Log4jManager:11 - Websitesi Açıldı
+2021-12-03 11:45:29 INFO  Log4jManager:11 - Aranan Ürün Doğrulandı
+2021-12-03 11:45:43 INFO  Log4jManager:11 - Ürün Seçildi
+2021-12-03 11:45:57 INFO  Log4jManager:11 - Sepete Ekle Butonuna Basıldı
+2021-12-03 11:46:14 WARN  Log4jManager:16 - Popup Açılmadı
+2021-12-03 11:46:25 INFO  Log4jManager:11 - Ürünün Silinmediği Görüldü
+2021-12-03 11:46:25 INFO  Log4jManager:11 - checkBasket:PASSED
+2021-12-03 11:46:25 INFO  Log4jManager:11 - ===============Logging ended for checkBasket==================
+2021-12-07 12:05:00 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-12-07 12:05:00 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-12-07 12:05:07 INFO  Log4jManager:11 - Websitesi Açıldı
+2021-12-07 12:05:41 INFO  Log4jManager:11 - Aranan Ürün Doğrulandı
+2021-12-07 12:05:55 INFO  Log4jManager:11 - Ürün Seçildi
+2021-12-07 12:06:51 INFO  Log4jManager:11 - ===============Logging started for checkBasket==================
+2021-12-07 12:06:51 INFO  Log4jManager:11 - checkBasket:STARTED
+2021-12-07 12:06:56 INFO  Log4jManager:11 - Websitesi Açıldı
+2021-12-07 12:07:26 INFO  Log4jManager:11 - Aranan Ürün Doğrulandı
+2021-12-07 12:07:39 INFO  Log4jManager:11 - Ürün Seçildi
+2021-12-07 12:07:53 INFO  Log4jManager:11 - Sepete Ekle Butonuna Basıldı
+2021-12-07 12:08:10 WARN  Log4jManager:16 - Popup Açılmadı
+2021-12-07 12:08:21 INFO  Log4jManager:11 - Ürünün Silinmediği Görüldü
+2021-12-07 12:08:21 INFO  Log4jManager:11 - checkBasket:FAILED
+2021-12-07 12:08:21 ERROR Log4jManager:14 - Falied error thrown
+java.lang.AssertionError: The following asserts failed:
+	expected [sayfa2] but found [sayfa=2]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at pages.BasePage.softAssertAll(BasePage.java:42)
+	at tests.TC01_optiim.checkBasket(TC01_optiim.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-07 12:08:21 INFO  Log4jManager:11 - ===============Logging ended for checkBasket==================
